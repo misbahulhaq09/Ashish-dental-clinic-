@@ -151,7 +151,7 @@ export default function App() {
               <a href="#book" className="btn-primary">
                 Book Appointment <ChevronRight size={20} />
               </a>
-              <a href={WHATSAPP_LINK} className="btn-secondary">
+              <a href="https://wa.me/919981559884" target="_blank" rel="noopener noreferrer" className="btn-secondary">
                 <MessageCircle size={20} /> WhatsApp Chat
               </a>
             </div>
@@ -472,10 +472,10 @@ export default function App() {
                 Providing world-class dental care with a personal touch. Your smile is our priority.
               </p>
               <div className="flex gap-4">
-                <a href={INSTAGRAM_LINK} className="w-12 h-12 rounded-full bg-slate-800 flex items-center justify-center hover:bg-medical-blue transition-colors">
+                <a href={INSTAGRAM_LINK} target="_blank" rel="noopener noreferrer" className="w-12 h-12 rounded-full bg-slate-800 flex items-center justify-center hover:bg-medical-blue transition-colors">
                   <Instagram size={24} />
                 </a>
-                <a href={WHATSAPP_LINK} className="w-12 h-12 rounded-full bg-slate-800 flex items-center justify-center hover:bg-medical-blue transition-colors">
+                <a href="https://wa.me/919981559884" target="_blank" rel="noopener noreferrer" className="w-12 h-12 rounded-full bg-slate-800 flex items-center justify-center hover:bg-medical-blue transition-colors">
                   <MessageCircle size={24} />
                 </a>
               </div>
@@ -529,7 +529,9 @@ export default function App() {
         <motion.a 
           whileHover={{ scale: 1.1 }}
           whileTap={{ scale: 0.9 }}
-          href={WHATSAPP_LINK} 
+          href="https://wa.me/919981559884" 
+          target="_blank"
+          rel="noopener noreferrer"
           className="w-16 h-16 bg-green-500 text-white rounded-full flex items-center justify-center shadow-2xl hover:bg-green-600 transition-colors"
           title="Chat on WhatsApp"
         >
